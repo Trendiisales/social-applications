@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry]
+name = "social-applications"
+version = "0.1.0"
+description = "A social media automation backend"
+authors = ["Your Name"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.115.9"
+uvicorn = "^0.23.2"
